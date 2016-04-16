@@ -1,0 +1,221 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	width: 100%;
+	background-color: #EDEDED;
+	margin: 0;
+}
+/*LOGO*/
+.logo{
+	width: 25%;
+	float: left;
+	position: relative;
+	width: 30px;
+	height: auto;
+	padding: 0px;
+	margin-left: 25px;
+}
+.logotext{
+	position: relative;
+	float: left;
+	font-size: 30px;
+	font-family: 'Cookie', cursive;
+	margin: 0 auto 0 10px;
+}
+/*NAV*/
+nav{
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	height: 45px;
+	width: 100%;
+	bottom: -45px;
+}
+.topNav {
+	float: right;
+	width: 40%;
+	padding: 0px;
+	margin: 0 auto;
+	margin-right: 15px;
+	top: -25px;
+}
+.topNav li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+	margin: 5px 5px 5px 5px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: sans-serif;
+	float: right;
+	position: relative;
+}
+.topNav li a{
+	text-decoration: none;
+	color: black;
+}
+.navbr{
+	width: 96%;
+	height: 2px;
+	background-color: black;
+	top: 45px;
+	position: relative;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*Header*/
+.header{
+	width: 100%;
+	position: relative;
+	top: 100px;
+	display: block;
+}
+.intro{
+	text-align: center;
+	padding: 0px;
+}
+.bigpic{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	border: 0px;
+	border-radius: 10px;
+	margin-top: 40px;
+}
+.pwd{
+	margin-top: -20px;
+	position: relative;
+}
+.name{
+	color: #ED9EAD;
+	font-family: 'Cookie', cursive;
+	font-size: 35px;
+}
+/*about me section*/
+.memy{
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	margin-top: 160px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.me{
+	width: 35%;
+	display: block;
+	float: left;
+	margin-left: 10%;
+	margin-right:10%;
+	text-align: center;
+
+}
+.my{
+	width: 35%;
+	display: block;
+	float: left;
+	text-align: center;
+	
+
+}
+.container{
+	width: 100%;
+	float: left;
+}
+.about{
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #ED9EAD;
+	font-size: 30px;
+}
+.para{
+	font-size: 16px;
+}
+/*Pictures*/
+.work{
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	margin-top: 160px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.top{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pic{
+	width: 18%;
+	float: left;
+	display: inline;
+	border: 1px solid;
+	border-radius: 11px;
+	margin-left: 12px;
+}
+.img{
+	width: 100%;
+	height: 200px;
+	float: left;
+	border-bottom-style: none;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+h4{
+	margin-bottom: 0;
+}
+sup{
+	color: #ED9EAD;
+}
+.bottom{
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-top: 12px;
+}
+.end{
+	font-family: 'Cookie', cursive;
+	font-size: 35px;
+	color: #ED9EAD;
+	text-align: center;
+	position: relative;
+	margin-top: 50px;
+}
+/*footer*/
+.contactForm{
+	background-color: black;
+}
+input{
+	width: 40%;
+	border: 1px solid black;
+	border-radius: 2px;
+	position: relative;
+	margin: 5px;
+	background-color: #EDEDED;
+}
+textarea{
+	width:40%;
+	border: 1px solid black;
+	border-radius: 2px;
+	position: relative;
+	margin: 5px;
+	background-color: #EDEDED;
+}
+button{
+	background-color: black;
+	color: white;
+	border: 0px;
+
+}
+.contact{
+	font-family: 'Cookie', cursive;
+	color: #ED9EAD;
+	font-size: 30px;
+	position: relative;
+	margin-top: 20px;
+}
